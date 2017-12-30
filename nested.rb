@@ -69,7 +69,7 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
-#require "pry"
+require "pry"
 
 	programmer_hash =
  		{
@@ -91,7 +91,7 @@ programmer_hash[:yukihiro_matsumoto] = {
    :known_for => "Ruby",
 	 :languages => ["LISP", "C"]
  	}
-#binding.pry
+binding.pry
 end
 
 def changing_alan
